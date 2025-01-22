@@ -5,7 +5,7 @@ API Feita para aplicar meus conhecimentos em .NET. A função da API é gerencia
 ## Instruções
 
  1. É necessário criar a base de dados na instância local do SQL Server, através do publish no Visual Studio. O nome da base deve ser "RecipesDB".
- 2. Depois é só executar a API e acessar a rota "/swagger/index.html" para ver a documentação Swagger.
+ 2. Depois é só executar a API e acessar a rota `/swagger/index.html` para ver a documentação Swagger.
 
 ## Tecnologias e Conceitos utilizados
 
