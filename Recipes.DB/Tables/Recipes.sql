@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Recipes]
+(
+	[Id] INT IDENTITY(1,1) NOT NULL, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [Description] NVARCHAR(500) NULL, 
+    [Deleted] BIT NOT NULL DEFAULT 0, 
+    CONSTRAINT PK_Recipes PRIMARY KEY CLUSTERED (Id)
+)
